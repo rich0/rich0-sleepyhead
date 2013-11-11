@@ -237,7 +237,7 @@ win32|mac {
     LIBS += -lquazip
 }
 
-win32|mac{
+win32|mac|unix{
     include(../3rdparty/qextserialport/src/qextserialport.pri)
 } else {
     CONFIG += extserialport

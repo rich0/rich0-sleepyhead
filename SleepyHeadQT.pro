@@ -1,6 +1,6 @@
 TEMPLATE = subdirs
 
-SUBDIRS += sleepyhead
+SUBDIRS += 3rdparty/qextserialport sleepyhead
 
 CONFIG += ordered
 
