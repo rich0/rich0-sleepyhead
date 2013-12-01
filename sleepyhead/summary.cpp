@@ -586,7 +586,7 @@ QString Summary::GenerateHTML()
 
                 }
 
-                if ((mode!=cmode) || (min!=cmin) || (max!=cmax) || (ps!=cps) || (pshi!=cpshi) || (maxipap!=cmaxipap) || (mach!=lastmach) || (prelset!=lastprelset))  {
+                if ((mode!=cmode) || (min!=cmin) || (max!=cmax) || (mach!=lastmach) || (prelset!=lastprelset))  {
                     if ((cmode!=MODE_UNKNOWN) && (lastmach!=NULL)) {
                         first=date.addDays(1);
                         int days=PROFILE.countDays(MT_CPAP,first,last);
